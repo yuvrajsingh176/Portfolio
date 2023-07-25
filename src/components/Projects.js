@@ -5,18 +5,18 @@ import cartafter from '../images/cart.png'
 import github from '../images/github.svg'
 const Projects = () => {
   return <>
-  <div className="Projects-and-line mt-40 h-full w-[80%] flex flex-col">
+  <div className="Projects-and-line mt-40 h-full w-[80%] flex flex-col" id='work'>
               <div className="flex flex-row items-center">
-                <p className="text-[#ccd6f6] font-bold text-3xl">
+                <p className="text-[#ccd6f6] font-bold md:text-3xl">
                   <span className="text-[#64ffda]">03.</span> Projects
                 </p>
                 <div className="bg-[#eff1fa] h-[0.1px] w-[50%] ml-4 mt-1 "></div>
               </div>
               <div className=" text-white projects">
               <div className="first-project mt-8">
-              <div className="image-and-desc flex ">
-              <div className="imgae w-[70%] mx-6 cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ...">
-        <a href="https://jobify-ttemp.onrender.com/landing">
+              <div className="image-and-desc flex flex-col md:flex-row" >
+              <div className="imgae md:w-[70%] w-[100%] mx-6 cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ...">
+        <a href="https://jobfolioo.onrender.com/landing">
           <img
               src={jobifysmall}
               className="  z-10 rounded"
@@ -24,12 +24,11 @@ const Projects = () => {
                 />
                 </a>    
               </div>
-              <div className="desc">
+              <div className="desc ml-6">
               <p className='text-[#64ffda]'>Featured Project</p>
               <p className='text-white font-bold'>Jobify</p>
               <div className='text-[#ccd6f6] text-xl '>
-                Full stack Job search Website.With all 
-                crud functionalities
+                Full stack Job search Website.With all crud functionalities
               </div>
               <div className="techs mt-6 text-[#64ffda]">
                 React.js Node.js MongoDB Express
@@ -43,9 +42,9 @@ const Projects = () => {
             </div>
               </div>
               <div className="first-project mt-8">
-              <div className="image-and-desc flex ">
+              <div className="image-and-desc flex flex-col md:flex-row">
            
-              <div className="desc">
+              <div className="desc ml-6">
               <p className='text-[#64ffda]'>Featured Project</p>
               <p className='text-white font-bold'>Cartify</p>
               <div className='text-[#ccd6f6] text-xl '>

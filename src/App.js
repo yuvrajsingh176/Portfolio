@@ -1,4 +1,3 @@
-
 import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Experince from './components/Experience'
@@ -10,7 +9,7 @@ import Logos from "./components/Logos";
 import Footer from "./components/Footer";
 const App = () => {
   return (
-    // <div className="bg-[#0a192f] h-full  ">
+    <div className="bg-[#0a192f] h-full  ">
       <div className="margin-class mt-6 mx-8 h-full">
         <Navigation/>
        <Logos/>
@@ -26,7 +25,7 @@ const App = () => {
           </div>
           <Email/>
           </div>
-    // </div>
+    </div>
   );
 };
 export default App;

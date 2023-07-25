@@ -1,7 +1,7 @@
 import me from "../images/me.jpg";
 
 const About = () => {
-    return   <div className="about-me mt-40 ">
+  return  <div id="about" className="about-me mt-40 ">
     <div className="flex flex-row items-center">
       <p className="text-[#ccd6f6] font-bold text-3xl">
         <span className="text-[#64ffda]">01.</span> About Me
@@ -33,6 +33,6 @@ My ultimate goal is to use my skills and passion to contribute to creating a bet
         </div>
       </div>
     </div>
-  </div>
+    </div>
 }
 export default About;
